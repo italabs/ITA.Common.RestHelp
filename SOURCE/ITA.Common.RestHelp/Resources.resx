@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HelpPageDescription" xml:space="preserve">
+    <value>Description: </value>
+  </data>
+  <data name="HelpPageMethod" xml:space="preserve">
+    <value>Method: </value>
+  </data>
+  <data name="HelpPageOperationMethod" xml:space="preserve">
+    <value>&lt;p  xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;b&gt;HTTP Method: &lt;/b&gt;&lt;span class="method"&gt;{0}&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="HelpPageOperationsAt" xml:space="preserve">
+    <value>Back to operations list</value>
+  </data>
+  <data name="HelpPageOperationUri" xml:space="preserve">
+    <value>&lt;p  xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;b&gt;Url: &lt;/b&gt;&lt;span class="uri-template"&gt;{0}&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="HelpPageReferenceFor" xml:space="preserve">
+    <value>Operation {0}</value>
+  </data>
+  <data name="HelpPageStaticText" xml:space="preserve">
+    <value>This page describes the service operations at this endpoint.</value>
+  </data>
+  <data name="HelpPageUri" xml:space="preserve">
+    <value>Uri: </value>
+  </data>
+  <data name="HelpPageHome" xml:space="preserve">
+    <value>{0} operations list</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="scripts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\scripts.js;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="styles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\styles.css;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="HelpPageName" xml:space="preserve">
+    <value>Operation name: </value>
+  </data>
+  <data name="file" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\file.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\folder.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HelpPageOperationName" xml:space="preserve">
+    <value>Operation: </value>
+  </data>
+  <data name="HelpPageOutputParameters" xml:space="preserve">
+    <value>Output parameters</value>
+  </data>
+  <data name="HelpPageParameterUndefiner" xml:space="preserve">
+    <value>(undefined)</value>
+  </data>
+  <data name="HelpPageParameterName" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="HelpPageParameterPlace" xml:space="preserve">
+    <value> Place: </value>
+  </data>
+  <data name="HelpPageNullable" xml:space="preserve">
+    <value>nullable</value>
+  </data>
+  <data name="HelpPageString" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="HelpPageContractTitle" xml:space="preserve">
+    <value>REST help</value>
+  </data>
+  <data name="HelpPageImageGif" xml:space="preserve">
+    <value>image/gif</value>
+  </data>
+  <data name="HelpPageOperationTitle" xml:space="preserve">
+    <value>REST operation help</value>
+  </data>
+  <data name="HelpPageTextHtml" xml:space="preserve">
+    <value>text/html</value>
+  </data>
+  <data name="HelpPageBoolean" xml:space="preserve">
+    <value>Boolean</value>
+  </data>
+  <data name="HelpPageFloatNumeric" xml:space="preserve">
+    <value>Float numeric</value>
+  </data>
+  <data name="HelpPageJsonObject" xml:space="preserve">
+    <value>JSON object</value>
+  </data>
+  <data name="HelpPageNumeric" xml:space="preserve">
+    <value>Numeric</value>
+  </data>
+  <data name="HelpPageInputBodyParameters" xml:space="preserve">
+    <value>Input Body parameters</value>
+  </data>
+  <data name="HelpPageInputQueryParameters" xml:space="preserve">
+    <value>Input Query parameters</value>
+  </data>
+  <data name="HelpPageInputUrlParameters" xml:space="preserve">
+    <value>Input Uri parameters</value>
+  </data>
+  <data name="HelpPageOperation" xml:space="preserve">
+    <value>Operation: </value>
+  </data>
+  <data name="HelpPageParameters" xml:space="preserve">
+    <value>Parameters: </value>
+  </data>
+  <data name="HelpExampleGeneratorHandlerNotFound" xml:space="preserve">
+    <value>Handler for type {0} not found.</value>
+  </data>
+  <data name="HelpExampleGeneratorLanguage" xml:space="preserve">
+    <value>en-us</value>
+  </data>
+  <data name="HelpExampleGeneratorMaxDepthLevelReached" xml:space="preserve">
+    <value>Max depth level reached at {0}.</value>
+  </data>
+  <data name="HelpExampleGeneratorSchemaObjectNotSupported" xml:space="preserve">
+    <value>Schema object {0} not supported.</value>
+  </data>
+  <data name="HelpExampleGeneratorStringContent" xml:space="preserve">
+    <value>String content</value>
+  </data>
+  <data name="HelpExampleGeneratorThisElementContainsText" xml:space="preserve">
+    <value>This element contains text.</value>
+  </data>
+  <data name="HelpPageValidElementOfType" xml:space="preserve">
+    <value>Valid elements of type: {0}</value>
+  </data>
+  <data name="HelpPageBodyIsEmpty" xml:space="preserve">
+    <value>The {0} body is empty.</value>
+  </data>
+  <data name="HelpPageBodyIsWrapped" xml:space="preserve">
+    <value>Cannot infer schema. The {0} body is wrapped.</value>
+  </data>
+  <data name="HelpPageCouldNotGenerateSchema" xml:space="preserve">
+    <value>Could not generate schema document.</value>
+  </data>
+  <data name="HelpPageJsonRequest" xml:space="preserve">
+    <value>The following is an example request Json body:</value>
+  </data>
+  <data name="HelpPageNA" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="HelpPageRequest" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="HelpPageRequestErrorTitle" xml:space="preserve">
+    <value>Request Error</value>
+  </data>
+  <data name="HelpPageRequestSchema" xml:space="preserve">
+    <value>The following is the request Xml Schema:</value>
+  </data>
+  <data name="HelpPageResponse" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="HelpPageResponseSchema" xml:space="preserve">
+    <value>The following is the response Xml Schema:</value>
+  </data>
+  <data name="HelpPageSchema" xml:space="preserve">
+    <value>Schema</value>
+  </data>
+  <data name="HelpPageUnknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="HelpPageExample" xml:space="preserve">
+    <value>Example</value>
+  </data>
+  <data name="HelpPageAdditionalRequestSchema" xml:space="preserve">
+    <value>Additional request Xml Schemas:</value>
+  </data>
+  <data name="HelpPageAdditionalResponseSchema" xml:space="preserve">
+    <value>Additional response Xml Schemas:</value>
+  </data>
+  <data name="HelpPageXmlRequest" xml:space="preserve">
+    <value>The following is an example request Xml body:</value>
+  </data>
+  <data name="HelpPageXmlResponse" xml:space="preserve">
+    <value>The following is an example response Xml body:</value>
+  </data>
+  <data name="HelpPageXml" xml:space="preserve">
+    <value>application/xml</value>
+  </data>
+  <data name="HelpPageContractDescription" xml:space="preserve">
+    <value>Description: </value>
+  </data>
+  <data name="HelpPageContractOperationList" xml:space="preserve">
+    <value>Operations: </value>
+  </data>
+  <data name="HelpPageTableDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="HelpPageTableMethod" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="HelpPageTableName" xml:space="preserve">
+    <value>Operation name</value>
+  </data>
+  <data name="HelpPageTableUri" xml:space="preserve">
+    <value>Uri</value>
+  </data>
+  <data name="HelpPageExamples" xml:space="preserve">
+    <value>Examples: </value>
+  </data>
+  <data name="HelpPageReturnValue" xml:space="preserve">
+    <value>Return value: </value>
+  </data>
+  <data name="HelpPageXmlRefValue" xml:space="preserve">
+    <value>Information of the contract in XML format</value>
+  </data>
+  <data name="HelpPageDictionary" xml:space="preserve">
+    <value>Array of key-value pair</value>
+  </data>
+  <data name="HelpPageCss" xml:space="preserve">
+    <value>text/css</value>
+  </data>
+  <data name="HelpPageJavascript" xml:space="preserve">
+    <value>text/javascript</value>
+  </data>
+  <data name="folder_closed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\folder_closed.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jquery_3_2_1_min" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\jquery_3_2_1_min.js;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1251</value>
+  </data>
+  <data name="jquery_treeview_css" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\jquery_treeview_css.css;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1251</value>
+  </data>
+  <data name="jquery_treeview_js" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\jquery_treeview_js.js;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="treeview_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\treeview_default.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="treeview_default_line" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\treeview_default_line.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HelpPageBaseUri" xml:space="preserve">
+    <value>Base Uri:</value>
+  </data>
+  <data name="HelpPageDateTimeString" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="HelpPageBimaskEnumeration" xml:space="preserve">
+    <value>Bitmask enumeration</value>
+  </data>
+  <data name="HelpPageEnumeration" xml:space="preserve">
+    <value>Enumeration</value>
+  </data>
+  <data name="HelpPageJsonErrorResponse" xml:space="preserve">
+    <value>The following is an example error response Json body:</value>
+  </data>
+  <data name="HelpPageJsonResponse" xml:space="preserve">
+    <value>The following is an example response Json body:</value>
+  </data>
+  <data name="HelpPageReturnErrorValue" xml:space="preserve">
+    <value>Return exception: </value>
+  </data>
+  <data name="HelpPageOutputFailure" xml:space="preserve">
+    <value>Failure</value>
+  </data>
+  <data name="HelpPageOutputSuccess" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="HelpPageResponseTitle" xml:space="preserve">
+    <value>HTTP Codes:</value>
+  </data>
+  <data name="HelpPageSuccessOperationDescription" xml:space="preserve">
+    <value>Operation successfull</value>
+  </data>
+  <data name="HelpPageErrorResponseExampleTitle" xml:space="preserve">
+    <value>Error code {0} ({1}) response example:</value>
+  </data>
+</root>
